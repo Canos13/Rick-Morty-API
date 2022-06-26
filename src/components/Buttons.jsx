@@ -14,14 +14,14 @@ function Buttons({setId, id}) {
   }
 
   return (
-    <div className='d-flex justify-content-center'>  
+    <div className='d-flex justify-content-center align-items-center pb-5'>  
         <button 
-          className='btn btn-primary mx-auto mb-5'
+          className='btn btn-primary mx-auto'
           onClick={ handleBefore }
         >Anterior</button>
-        <p> Pagina actual: {id} </p>
+        <h6> Pagina actual: {id} </h6>
         <button 
-          className='btn btn-primary mx-auto mb-5'
+          className='btn btn-primary mx-auto'
           onClick={ handleNext }
         >Siguiente</button>
     </div>
